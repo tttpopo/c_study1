@@ -1,16 +1,12 @@
 #include <stdio.h>
 
-int aa = 0;
-int *ap = &aa;
 int main()
 {
+    char aa[] = {"你好"};
 
-    //printf(printf("%p\n", &aa));
-    // printf("%d\n", sizeof(int));
+    printf("%s\n", aa);
 
-    printf("%d\n", printf("hello whold"));
-
-    printf("%d", sizeof("hello whold"));
+    printf("你好\0");
 
     return 0;
 }
