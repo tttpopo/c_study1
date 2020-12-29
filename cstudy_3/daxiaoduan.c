@@ -21,7 +21,7 @@ int check_sys()
 {
     int a = 1;
     char *ap = (char *)&a;
-    return *ap; //优秀的写法，直接将0或1返回，可以少一步无意义的判断
+    return *ap; //推荐的写法，直接将0或1返回，可以少一步无意义的判断
     // 还可以再浓缩
     // return *(char*)&a;
 }
